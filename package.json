@@ -1,7 +1,7 @@
 {
-  "name": "bookshelf-uuid",
+  "name": "bookshelf-uuid-column",
   "version": "1.0.0",
-  "description": "Automatically generates UUID for your models",
+  "description": "Automatically generates UUID for your models in a custom column",
   "main": "index.js",
   "scripts": {
     "test": "standard && lab --verbose --colors --assert code --ignore __core-js_shared__",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/estate/bookshelf-uuid.git"
+    "url": "git+https://github.com/jesobreira/bookshelf-uuid-column.git"
   },
   "keywords": [
     "bookshelf",
@@ -29,9 +29,9 @@
   "author": "Estate <team@tryestate.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/estate/bookshelf-uuid/issues"
+    "url": "https://github.com/jesobreira/bookshelf-uuid-column/issues"
   },
-  "homepage": "https://github.com/estate/bookshelf-uuid#readme",
+  "homepage": "https://github.com/jesobreira/bookshelf-uuid-column#readme",
   "dependencies": {
     "lodash.merge": "^4.3.5",
     "lodash.result": "^4.3.0",

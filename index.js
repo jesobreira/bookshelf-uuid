@@ -20,7 +20,7 @@ module.exports = (bookshelf, settings) => {
 
             if (this.uuid) {
                 this.defaults = merge({
-                    [this.idAttribute]: typeof settings.type === 'string' ? uuid[settings.type]() : settings.type.call(this, attributes, options)
+                    [this.uuidAttribute || 'uuid']: typeof settings.type === 'string' ? uuid[settings.type]() : settings.type.call(this, attributes, options)
                 }, result(this, 'defaults'))
             }
         }
